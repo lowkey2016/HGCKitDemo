@@ -31,6 +31,6 @@
     #endif
     #define LOG_LEVEL_DEF ddLogLevel
 
-    #endif
+#endif
 
 #endif /* HGCKitDemo_Prefix_pch */
