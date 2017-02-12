@@ -1,0 +1,36 @@
+//
+//  HGCKitDemo-Prefix.pch
+//  HGCKitDemo
+//
+//  Created by Jymn_Chen on 2017/2/12.
+//  Copyright © 2017年 com.jymnchen. All rights reserved.
+//
+
+#ifndef HGCKitDemo_Prefix_pch
+#define HGCKitDemo_Prefix_pch
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    /** Masonry */
+    //define this constant if you want to use Masonry without the 'mas_' prefix
+    #define MAS_SHORTHAND   1
+    //define this constant if you want to enable auto-boxing for default syntax
+    #define MAS_SHORTHAND_GLOBALS   1
+    #import "Masonry.h"
+
+    /** CocoaLumberjack */
+    #import "CocoaLumberjack.h"
+    #ifdef TD_DEBUG_MODE
+        static const DDLogLevel ddLogLevel = DDLogLevelAll;
+    #else
+        static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+    #endif
+    #define LOG_LEVEL_DEF ddLogLevel
+
+    #endif
+
+#endif /* HGCKitDemo_Prefix_pch */

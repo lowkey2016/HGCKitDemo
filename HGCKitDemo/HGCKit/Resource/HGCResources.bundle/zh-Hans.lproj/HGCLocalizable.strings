@@ -1,0 +1,223 @@
+
+
+/**
+ *  简体中文
+ */
+
+// 使用:
+// HGCLocalizedString(@"key")
+
+///* 更新提示框 */
+//"kHGCLocalize_updateview_confirmText_default" = "马上更新";
+//"kHGCLocalize_updateview_cancelText_default" = "取消";
+//"kHGCLocalize_updateview_title_default" = "有更新啦";
+//"kHGCLocalize_updateview_content_default" = "";
+//"kHGCLocalize_updateview_updateurl_default" = "https://itunes.apple.com/us/app/4566you-xi/id1039267131?l=zh&ls=1&mt=8";
+//
+///* 导航栏标题 */
+//"kHGCLocalize_naviTitle_4566" = "4566游戏";
+//"kHGCLocalize_naviTitle_accountCenter" = "个人中心";
+//"kHGCLocalize_naviTitle_myprofile" = "个人信息";
+//"kHGCLocalize_naviTitle_editNickname" = "修改昵称";
+//"kHGCLocalize_naviTitle_changePassword" = "修改密码";
+//"kHGCLocalize_naviTitle_myGame" = "我的游戏";
+//"kHGCLocalize_naviTitle_applyGame" = "申报游戏";
+//"kHGCLocalize_naviTitle_aboutUs" = "关于我们";
+//"kHGCLocalize_naviTitle_feedback" = "意见反馈";
+//"kHGCLocalize_naviTitle_login" = "登录";
+//"kHGCLocalize_naviTitle_register" = "注册";
+//"kHGCLocalize_naviTitle_findPassword" = "忘记密码";
+//"kHGCLocalize_naviTitle_gameDetails" = "详情信息";
+//"kHGCLocalize_naviTitle_articleDetails" = "文章详情";
+//
+///* 首页 */
+//// 每行的标题
+//"kHGCLocalize_home_sectionTitle_myGame" = "我的游戏";
+//"kHGCLocalize_home_sectiontitle_recommend" = "精品推荐";
+//// 每个 Tab Menu 的标题
+//"kHGCLocalize_home_tabMenuTitle_latest" = "最新";
+//"kHGCLocalize_home_tabMenuTitle_hot" = "最热";
+//"kHGCLocalize_home_tabMenuTitle_recommend" = "推荐";
+//
+///* "个人信息"每行的标题 */
+//"kHGCLocalize_myprofileTitle_portrait" = "头像";
+//"kHGCLocalize_myprofileTitle_nickname" = "昵称";
+//"kHGCLocalize_myprofileTitle_password" = "修改密码";
+//
+///* "设置"每行的标题 */
+//"kHGCLocalize_settingsTitle_mygame" = "我的游戏";
+//"kHGCLocalize_settingsTitle_applygame" = "申报游戏";
+//"kHGCLocalize_settingsTitle_aboutus" = "关于我们";
+//"kHGCLocalize_settingsTitle_clearcache" = "清除缓存";
+//
+///* "关于我们"每行的标题 */
+//"kHGCLocalize_aboutusTitle_feedback" = "意见反馈";
+//"kHGCLocalize_aboutusTitle_checkUpdate" = "检测更新";
+//"kHGCLocalize_aboutusTitle_contactUs" = "联系客服";
+//"kHGCLocalize_aboutusTitle_cooperate" = "商务合作";
+//
+///* 搜索栏 */
+//"kHGCLocalize_searchbar_placeholder" = "请输入关键字进行搜索";
+//"kHGCLocalize_searchbar_cancel" = "取消";
+//
+///* 输入框 */
+//"kHGCLocalize_textField_editNickPlaceHolder" = "来一个霸气的昵称吧！";
+//"kHGCLocalize_textField_srcPasswordPlaceHolder" = "原密码";
+//"kHGCLocalize_textField_newPasswordPlaceHolder" = "新密码 6-16位数字、英文、字母组合";
+//"kHGCLocalize_textField_confirmPasswordPlaceHolder" = "再次确认密码";
+//"kHGCLocalize_textView_applyGamePlaceHolder" = "4566没有你想玩的游戏？快来申报吧，24小时急速收录";
+//"kHGCLocalize_textView_feedbackPlaceHolder" = "你的反馈是我们优化的动力，快来吐槽吧！";
+//"kHGCLocalize_textField_feedbackPlaceHolder" = "大侠请留下QQ号，大恩不言谢。";
+//"kHGCLocalize_textField_loginUsernamePlaceHolder" = "手机";
+//"kHGCLocalize_textField_loginPasswordPlaceHolder" = "请输入密码";
+//"kHGCLocalize_textField_mobilePlaceHolder" = "请输入11位手机号码";
+//"kHGCLocalize_textField_smsCodePlaceHolder" = "验证码";
+//"kHGCLocalize_textField_registerPasswordPlaceHolder" = "密码(6-16位数字或者字母组成)";
+//"kHGCLocalize_textField_findPasswordPlaceHolder" = "密码(6-16位数字或者字母组成)";
+//
+///* 按钮的标题 */
+//"kHGCLocalize_btn_cancel" = "取消";
+//"kHGCLocalize_btn_clear" = "清空";
+//"kHGCLocalize_btn_logout" = "退出登录";
+//"kHGCLocalize_btn_confirm" = "确定";
+//"kHGCLocalize_btn_changePass" = "确定修改";
+//"kHGCLocalize_btn_delete" = "删除";
+//"kHGCLocalize_btn_finish" = "完成";
+//"kHGCLocalize_btn_manage" = "管理";
+//"kHGCLocalize_btn_selectAll" = "全选";
+//"kHGCLocalize_btn_commit" = "提交";
+//"kHGCLocalize_btn_register" = "注册";
+//"kHGCLocalize_btn_findPassword" = "忘记密码";
+//"kHGCLocalize_btn_login" = "登录";
+//"kHGCLocalize_btn_getSMSCode" = "获取验证码";
+//"kHGCLocalize_btn_resendSMSCode" = "重获(%zd)秒";
+//"kHGCLocalize_btn_register_mobile" = "验证并登录";
+//"kHGCLocalize_btn_resetPassword" = "验证并修改密码";
+//"kHGCLocalize_btn_playGame" = "马上玩";
+//"kHGCLocalize_btn_checkWithSafari" = "查看详情";
+//
+///* 标签的标题 */
+//"kHGCLocalize_label_unloginNickname" = "未登录";
+//"kHGCLocalize_label_unloginUsername" = "账号：未知";
+//"kHGCLocalize_label_loginUsername" = "账号：%@";
+//
+///* 下拉刷新/上拉加载更多 */
+//"kHGCLocalize_refreshHeader_idle" = "下拉刷新";
+//"kHGCLocalize_refreshHeader_pulling" = "松开刷新";
+//"kHGCLocalize_refreshHeader_refreshing" = "正在刷新....";
+//
+//"kHGCLocalize_refreshFooter_idle" = "";
+//"kHGCLocalize_refreshFooter_refreshing" = "正在刷新....";
+//"kHGCLocalize_refreshFooter_noMoreData" = "没有了";
+//
+//"kHGCLocalize_refreshHeader_sync_idle" = "马上同步";
+//"kHGCLocalize_refreshHeader_sync_pulling" = "请松开";
+//"kHGCLocalize_refreshHeader_sync_refreshing" = "正在同步....";
+//
+///* Hint */
+//"kHGCLocalize_hint_clearCache" = "确定清空缓存？";
+//"kHGCLocalize_hint_clearing" = "清空缓存中...";
+//"kHGCLocalize_hint_updatingPortrait" = "修改中...";
+//"kHGCLocalize_hint_updatingNickname" = "修改中...";
+//"kHGCLocalize_hint_changingPasswod" = "请求中...";
+//"kHGCLocalize_hint_login" = "登录中...";
+//"kHGCLocalize_hint_reseting" = "重置中...";
+//"kHGCLocalize_hint_openingGame" = "打开游戏中...";
+//"kHGCLocalize_hint_loadingGameDetails" = "获取游戏信息...";
+//"kHGCLocalize_hint_removingGames" = "删除中...";
+//"kHGCLocalize_hint_shouldRemoveGame" = "确定删除这些游戏吗？";
+//"kHGCLocalize_hint_userProtocolPrefix" = "友情提示：尊敬的4566客户，注册完成后将自动登录，且代表您已同意%@";
+//"kHGCLocalize_hint_ffssUserProtocol" = "《4566协议》";
+//"kHGCLocalize_hint_slogn" = "游戏无需下载，一点即玩";
+//"kHGCLocalize_hint_shareApp_title" = "4566游戏";
+//"kHGCLocalize_hint_shareApp_content" = "游戏无需下载，一点即玩！";
+//"kHGCLocalize_hint_shareApp_shareURL" = "https://itunes.apple.com/us/app/4566/id1039267131?l=zh&ls=1&mt=8";
+//"kHGCLocalize_hint_shareApp_res_succ" = "分享成功";
+//"kHGCLocalize_hint_shareApp_res_copySucc" = "已复制到粘贴板";
+//"kHGCLocalize_hint_shareApp_res_fail" = "分享失败";
+///* 审核状态的文案 */
+//"kHGCLocalize_hint_inAudit_browserHistory" = "浏览历史";
+//
+///* 成功提示 */
+//"kHGCLocalize_succ_updatePortrait" = "更新头像成功";
+//"kHGCLocalize_succ_updateNickname" = "修改昵称成功";
+//"kHGCLocalize_succ_changePassword" = "修改密码成功";
+//"kHGCLocalize_succ_applyGame" = "申报内容已提交";
+//"kHGCLocalize_succ_checkUpdate_latest" = "已是最新版";
+//"kHGCLocalize_succ_feedback" = "反馈已提交";
+//"kHGCLocalize_succ_getSMSCode" = "验证码已发送";
+//"kHGCLocalize_succ_resetPassword" = "重置密码成功";
+//
+///* View/Controller层错误 */
+//"kHGCLocalize_error_loadfail" = "加载数据失败";
+//"kHGCLocalize_error_updatePortraitFail" = "更新头像失败";
+//"kHGCLocalize_error_updateNicknameFail" = "修改昵称失败";
+//"kHGCLocalize_error_changePasswordFail" = "修改密码失败";
+//"kHGCLocalize_error_checkUpdateFail" = "检测更新失败";
+//"kHGCLocalize_error_loginFail" = "登录失败";
+//"kHGCLocalize_error_getSMSCodeFail" = "获取验证码失败";
+//"kHGCLocalize_error_registerFail" = "注册失败";
+//"kHGCLocalize_error_resetPasswordFail" = "重置密码失败";
+//"kHGCLocalize_error_openGameFail" = "打开游戏失败";
+//"kHGCLocalize_error_openGameAfterLogin" = "进入此游戏需要登录";
+//"kHGCLocalize_error_loadingGameDetailsFail" = "获取游戏信息失败";
+//"kHGCLocalize_error_loadingWebContentFail" = "点击屏幕，重新加载";
+//"kHGCLocalize_error_syncUserGamesFail" = "同步失败";
+//"kHGCLocalize_error_removeGamesFail" = "删除游戏失败";
+//
+///* 网络层错误 */
+//"kHGCLocalize_error_network_inner" = "网络错误";
+//"kHGCLocalize_error_network_badnetwork" = "网络状况不佳";
+//"kHGCLocalize_error_network_disconnected" = "网络连接中断";
+//
+//"kHGCLocalize_error_network_loginFirst" = "请先登录";
+//"kHGCLocalize_error_network_sessionVerifyFail" = "请重新登录";
+//
+//"kHGCLocalize_error_network_gameNotExists" = "该游戏不存在";
+//"kHGCLocalize_error_network_userNotExists" = "用户不存在";
+//"kHGCLocalize_error_network_imageUploadFail" = "上传图片失败";
+//
+//"kHGCLocalize_error_network_passwordError" = "用户名或密码错误";
+//"kHGCLocalize_error_network_payPasswordError" = "支付密码错误";
+//"kHGCLocalize_error_network_srcPasswordError" = "原密码错误";
+//"kHGCLocalize_error_network_passwordLengthError" = "密码长度不合法";
+//
+//"kHGCLocalize_error_network_nickLengthInvalid" = "昵称长度不合法";
+//"kHGCLocalize_error_network_nickInvalid" = "昵称含有非法字符";
+//"kHGCLocalize_error_network_nickExists" = "昵称已经存在";
+//"kHGCLocalize_error_network_nickNotExist" = "昵称不存在";
+//
+//"kHGCLocalize_error_network_usernameInvalid" = "用户名不合法";
+//"kHGCLocalize_error_network_usernameExists" = "用户名已存在";
+//"kHGCLocalize_error_network_usernameNotExist" = "用户名不存在";
+//"kHGCLocalize_error_network_userBinded" = "用户已经绑定";
+//"kHGCLocalize_error_network_usernameWasBanned" = "该用户已被封号";
+//
+//"kHGCLocalize_error_network_mobileInvalid" = "请输入正确的手机号";
+//"kHGCLocalize_error_network_notBindingMobile" = "输入的手机不是已绑定手机号码";
+//"kHGCLocalize_error_network_verifySMSCodeError" = "验证码不正确";
+//"kHGCLocalize_error_network_userDidBindMobile" = "已绑定手机";
+//"kHGCLocalize_error_network_userNotBindMobile" = "尚未绑定手机";
+//"kHGCLocalize_error_network_mobileNotMatch" = "用户名和手机不匹配";
+//
+///* 输入校验错误 */
+//"kHGCLocalize_error_input_emptyUsername" = "请输入账号";
+//"kHGCLocalize_error_input_emptyPassword" = "请输入密码";
+//"kHGCLocalize_error_input_emptyMobile" = "请输入手机号";
+//"kHGCLocalize_error_input_invalidMobile" = "请填写有效手机号";
+//"kHGClocalize_error_input_emptySmsCode" = "请输入验证码";
+//"kHGCLocalize_error_input_invalidPassword" = "密码只支持6-12位数字、字母组合";
+//"kHGCLocalize_error_input_emptyOldPassword" = "请输入原密码";
+//"kHGCLocalize_error_input_emptyNewPassword" = "请输入新密码";
+//"kHGCLocalize_error_input_emptyConfirmPassword" = "请再次确认密码";
+//"kHGCLocalize_error_input_diffrentPasswords" = "两次输入不一致";
+//"kHGCLocalize_error_input_invalidNewPassword" = "新密码只支持6-12位数字、字母组合";
+//"kHGCLocalize_error_input_emptyNickname" = "昵称不能为空";
+//"kHGCLocalize_error_input_emptyApplyGame" = "请填写申报内容后提交";
+//"kHGCLocalize_error_input_emptyFeedback" = "请填写反馈后提交";
+//"kHGCLocalize_error_input_emptyContact" = "请填写联系方式";
+//
+///* 分享错误 */
+//"kHGCLocalize_error_share_wechatNotInstall" = "您尚未安装微信客户端，无法分享";
+//"kHGCLocalize_error_share_unauthorize" = "您未授权分享";
+//"kHGCLocalize_error_share_qqNotInstall" = "您尚未安装QQ客户端，无法分享";
